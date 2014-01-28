@@ -39,7 +39,7 @@
          日文 ([\u3040-\u30FF])
          http://www.diybl.com/course/6_system/linux/Linuxjs/20090426/165435.html
          */
-        wschar = (pangu.wschar !== undefined) ? pangu.wschar : ' ';
+        wschar = (pangu.wschar != undefined) ? pangu.wschar : ' ';
 
         // 前面"字"後面 >> 前面 "字" 後面
         text = text.replace(/([\u4e00-\u9fa5\u3040-\u30FF])(["'](\S+))/ig, '$1' + wschar + '$2');
