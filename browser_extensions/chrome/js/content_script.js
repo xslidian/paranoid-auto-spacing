@@ -1,6 +1,7 @@
 var is_spacing = false; // 是不是正在加入空格
 var last_spacing_time = 0; // 避免短時間內一直在執行 go_spacing()
-chrome.storage.sync.get('wschar', function(o){ console.log(o);
+chrome.storage.sync.get('wschar', function(o){
+	//console.log(o);
 	if(o.wschar !== undefined) pangu.wschar = o.wschar;
 	});
 
