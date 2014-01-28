@@ -15,7 +15,7 @@ var DEFAULT_SETTINGS = {
         'http://heelsfetishism.com'
     ],
     'whitelists': [],
-    'wschar': '\u200a'
+    'wschar': ' '
 };
 var CACHED_SETTINGS = Object.create(DEFAULT_SETTINGS);
 var SETTING_KEYS = Object.keys(DEFAULT_SETTINGS);
